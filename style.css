@@ -1,0 +1,31 @@
+/* Draft Season store pages: one CSS, no external fonts. */
+:root {
+  --bg: #f3f7ee; --surface: #ffffff; --text: #14201a; --muted: #55635b; --line: #d8e2d2;
+  --accent: #1f7a3f; --accent-ink: #ffffff; --gold: #f2b52c;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1a14; --surface: #16251c; --text: #eef4ea; --muted: #a2b3a8; --line: #26382c; --accent: #5fd184; --accent-ink: #0a1a10; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; }
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 16px; border-bottom: 3px solid var(--gold); margin-bottom: 24px; }
+.brand { font-weight: 800; font-size: 20px; letter-spacing: .02em; color: var(--accent); text-decoration: none; }
+.langs { display: flex; gap: 4px; }
+.langs a { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); text-decoration: none; font-size: 14px; }
+.langs a[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+a { color: var(--accent); }
+ul { padding-left: 22px; } li + li { margin-top: 4px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--gold); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.cards { display: grid; gap: 12px; margin: 24px 0; }
+.cards a.card { display: block; margin: 0; color: var(--text); text-decoration: none; }
+.cards a.card strong { display: block; color: var(--accent); }
+footer.bottom { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+footer.bottom a { color: var(--muted); }
+html[data-lang] [lang]:not(html) { display: none; }
+html[data-lang="tr"] [lang="tr"]:not(html), html[data-lang="en"] [lang="en"]:not(html) { display: block; }
