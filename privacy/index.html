@@ -3,105 +3,122 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy policy · Draft Season</title>
-<meta name="title-en" content="Privacy policy · Draft Season">
-<meta name="title-tr" content="Gizlilik politikası · Draft Season">
-<meta name="description" content="Draft Season privacy policy.">
+<title>Privacy policy · Coach Season</title>
+<meta name="title-en" content="Privacy policy · Coach Season">
+<meta name="title-tr" content="Gizlilik politikası · Coach Season">
+<meta name="description" content="Coach Season privacy policy.">
 <link rel="stylesheet" href="../style.css">
 <script src="../site.js" defer></script>
 </head>
 <body>
 <div class="wrap">
 <header class="top">
-  <a class="brand" href="../">Draft Season</a>
+  <a class="brand" href="../">Coach Season</a>
   <nav class="langs" aria-label="Language / Dil">
     <a href="?lang=en" hreflang="en">EN</a>
     <a href="?lang=tr" hreflang="tr">TR</a>
   </nav>
 </header>
 <main>
-<!-- Source: Unity project code and ProjectSettings (2026-10-11): no account, no server, save on device; Unity IAP (Google Play Billing); AdMob + Google UMP (wired in the ads ticket); Unity Analytics, Cloud Diagnostics and Unity Ads are all disabled in UnityConnectSettings. Change the code, change this page. -->
+<!-- Source (ZTE-2224, 2026-11-18): Packages/manifest.json + Assets/Plugins. Unity IAP 4.15.1 (Google Play Billing / Apple App Store; nothing in Scripts starts Unity Gaming Services, checked 2026-11-18); Google Mobile Ads 11.5.0 + UMP; iOS ATT (DsAtt.mm); Firebase Analytics + Crashlytics 14.1.0 (FirebasePrivacy.androidlib; FirebaseBridge keeps ad storage denied); Google Play Games on Android only (optional sign-in, saved game, leaderboard "Cups", coach name); Game Center on iPhone (rc14 build, ZTE-2222: optional sign-in, saved games, no leaderboard); bug report = prefilled Google Form (FeedbackLink). No server of ours. Unity Analytics, Cloud Diagnostics and Unity Ads are off. Must say the same as docs/store/IOS-READINESS.md section 3, store/play/CONSOLE-ANSWERS.md section 5 and Assets/Plugins/iOS/PrivacyInfo.xcprivacy. Change the code, change this page. -->
 <article lang="en">
-  <h1>Privacy policy</h1>
-  <p class="meta">Last updated: 11 October 2026</p>
-  <div class="card"><strong>In short:</strong> Draft Season has no account and no server of ours. Your save game stays on your phone. The game shows ads through Google AdMob and sells in-game purchases through Google Play. Those two Google services process some data as described below. We do not sell your data and we run no analytics or tracking of our own.</div>
+  <h1>Privacy policy · Coach Season: Club Manager</h1>
+  <p class="meta">Last updated: 21 November 2026</p>
+  <div class="card"><strong>In short:</strong> Coach Season has no account system and no server of ours. Your save game stays on your device; on Android you can also keep a copy in your Google Play Games account, and on iPhone in your Game Center account. The game uses these services, each described below: Google AdMob for ads (with Google's consent form), Google Firebase Analytics and Firebase Crashlytics to see how the game is played and to fix crashes, Google Play Games (Android, optional), Game Center (iPhone, optional), and the store you use for purchases (Google Play or the Apple App Store). We do not sell your data.</div>
 
   <h2>1. Who is responsible</h2>
-  <p>Draft Season is developed and published by Onur Zencirli. This policy covers the Android game and these web pages. Contact: <a data-email="Privacy" href="#">[SUPPORT_EMAIL]</a></p>
+  <p>Coach Season is developed and published by Onur Zencirli. This policy covers the Coach Season game on Android and on iPhone, and these web pages. Contact: <a data-email="Privacy" href="mailto:quafrei112@gmail.com?subject=Privacy">quafrei112@gmail.com</a></p>
 
-  <h2>2. Data stored on your device</h2>
-  <p>Your squad, season progress, coins, settings and purchase state are saved on your phone only. There is no account, no sign-in, no cloud save and no server of ours that receives this data. We cannot see it.</p>
+  <h2>2. Your save game, Google Play Games and Game Center</h2>
+  <p>Your squad, season progress, coins, settings and purchase state are saved on your device. No server of ours receives them, and we cannot see them.</p>
+  <p><strong>Android only, optional: Google Play Games.</strong> If you sign in with Play Games, the game keeps a copy of your save in your Play Games account (Google Saved Games) so you can continue on another phone, posts your cup score to the game's leaderboard, where other players see it next to your Play Games name and picture, and uses your Play Games name as your coach name unless you choose your own. Google receives your Play Games player ID with these requests and stores this data in your Google account; we run no server for it. You can play without signing in.</p>
+  <p><strong>iPhone only, optional: Game Center.</strong> If you sign in to Game Center, the game keeps a copy of your save in your Game Center saved games so you can continue on another iPhone. Apple keeps that copy in your Apple Account; we run no server for it and never receive your save. The game reads your Game Center player ID and display name to link the copy to you. Scores are not sent to Game Center, because the game has no leaderboard on iPhone. Without signing in, your save stays on this device only.</p>
 
   <h2>3. Ads (Google AdMob)</h2>
   <p>The free game shows ads served by Google AdMob. To do this, AdMob may collect and use your device's advertising ID, IP address (approximate location), device and operating-system information, app interaction data and diagnostics. This data goes to Google, not to us. See <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
   <ul>
     <li><strong>Rewarded ads</strong> are optional. You watch one only when you tap a button to earn a reward (for example energy or a chest).</li>
     <li><strong>Interstitial ads</strong> may appear between screens or matches.</li>
-    <li><strong>Consent:</strong> in the European Economic Area, the United Kingdom and Switzerland the game first shows Google's consent form (Google User Messaging Platform). You can change your choice later in the game's settings. Without consent only non-personalised ads are shown, where the law requires it.</li>
-    <li>You can reset or delete your advertising ID in Android Settings → Google → Ads.</li>
+    <li><strong>Consent:</strong> in the European Economic Area, the United Kingdom and Switzerland the game first shows Google's consent form (Google User Messaging Platform). You can change your choice later in the game's Settings → Privacy choices. Without consent only non-personalised ads are shown, where the law requires it.</li>
+    <li><strong>iPhone:</strong> before ads start, iOS asks whether Coach Season may track you (App Tracking Transparency). AdMob gets your device's advertising identifier (IDFA) only if you allow it; otherwise ads are non-personalised. You can change this any time in iOS Settings → Privacy &amp; Security → Tracking.</li>
+    <li>On Android you can reset or delete your advertising ID in Android Settings → Google → Ads.</li>
   </ul>
 
-  <h2>4. Purchases (Google Play Billing)</h2>
-  <p>In-game purchases (coins, packs, passes) are handled entirely by Google Play. Google processes your payment and its own purchase records. We never see your card or payment details. The game keeps the purchase receipt on your device to check locally that a purchase is valid and to restore it. Some packs contain randomised items; this is stated in the store before you buy.</p>
+  <h2>4. Purchases (Google Play and the Apple App Store)</h2>
+  <p>In-game purchases (coins, packs, passes) are handled by the store you use: Google Play Billing on Android, the Apple App Store on iPhone. The game's purchase library, Unity IAP, passes each purchase to that store. The store processes your payment and keeps its own purchase records. We never see your card or payment details. The game keeps the purchase receipt on your device to check that a purchase is valid and to restore it. The name of the product and whether the purchase went through are also counted by Firebase Analytics (section 5). Some packs contain randomised items; the odds are shown in the game before you buy.</p>
 
-  <h2>5. Analytics and crash reporting</h2>
-  <p>The game has no analytics or crash-reporting service of our own. Google Play may give us aggregated crash and performance statistics through the Play Console; these do not identify you.</p>
+  <h2>5. Analytics and crash reporting (Google Firebase)</h2>
+  <p>We use Google Firebase Analytics to understand how the game is played (for example sessions, screens, matches, shop visits and purchases) and Firebase Crashlytics to find and fix crashes. They receive a random installation ID, device and operating-system information, app version, coarse location derived from your IP address (the IP address is not stored), the in-game events and, for crashes, the crash log. They do not receive your name, your save game or any text you type. On Android they are blocked from reading your advertising ID; on iPhone that identifier is available only if you allow tracking (section 3). Firebase's ad storage and ad personalisation settings are always switched off, so this data is never used for advertising. Analytics data is kept for 2 months and crash data for 90 days. Google processes this data for us as a service provider; we do not sell it.</p>
+  <p>In the EEA and the UK, analytics starts only after you agree in the consent message, and you can change your choice at any time in Settings → Privacy choices. Crash reporting is always on, because we need it to keep the game working. Google Play and Apple may also give us aggregated crash and performance statistics; these do not identify you.</p>
 
-  <h2>6. Children</h2>
-  <p>Draft Season is not directed at children under 13, and we do not knowingly collect data from them. If you believe a child has used the game, contact us.</p>
+  <h2>6. Bug reports</h2>
+  <p>If you tap Settings → Report a bug / Send feedback, the game opens a Google Form in your browser, filled in with your game version, device model, operating system, language, the current screen and a short summary of your recent play (no name, no account). Nothing is sent unless you submit the form. Your answers are stored in Google Forms for us and used only to fix problems.</p>
 
-  <h2>7. Deleting your data</h2>
-  <p>Because nothing is stored on our servers, deleting is in your hands: in Android Settings → Apps → Draft Season → Storage, choose Clear data, or uninstall the game. Data held by Google (ads, Play purchases) is managed in your Google account at <a href="https://myaccount.google.com/">myaccount.google.com</a>.</p>
+  <h2>7. Children</h2>
+  <p>Coach Season is not directed at children under 13, and we do not knowingly collect data from them. If you believe a child has used the game, contact us.</p>
 
-  <h2>8. Your rights</h2>
-  <p>Depending on where you live (for example under the GDPR) you may have rights to access, correct or delete personal data. We hold none about you, but you can write to us at the address above and we will answer.</p>
+  <h2>8. Deleting your data</h2>
+  <p>Your save game is only on your device (plus any Play Games or Game Center copy in section 2): on Android, choose Settings → Apps → Coach Season → Storage → Clear data, or uninstall the game; on iPhone, delete the app. A copy saved in Game Center stays with Apple until you delete it from your Apple Account or Game Center settings. This also resets the random installation ID, so new analytics and crash data are no longer linked to the old data, which expires after 2 months (analytics) or 90 days (crashes). To have analytics and crash data deleted sooner, write to us at the address above and we will delete it within 30 days.</p>
+  <p>Your Play Games saved game, leaderboard score and profile are kept by Google: you can delete them in the Google Play Games app settings or in your Google account at <a href="https://myaccount.google.com/">myaccount.google.com</a>, where you also manage ad and Google Play data. Apple purchase records are managed in your Apple Account.</p>
 
-  <h2>9. Changes</h2>
-  <p>If the game starts collecting new data (for example an account or cloud save), we will update this page and the date above before it ships.</p>
+  <h2>9. Your rights</h2>
+  <p>Depending on where you live (for example under the GDPR or KVKK) you may have rights to access, correct, delete or object to the processing of personal data. The only data we receive ourselves is the pseudonymous analytics and crash data and any bug report you send, as described above; write to us at the address above and we will answer.</p>
+
+  <h2>10. Changes</h2>
+  <p>If the game starts collecting new data, we will update this page and the date above before that version ships.</p>
 </article>
 <article lang="tr">
-  <h1>Gizlilik politikası</h1>
-  <p class="meta">Son güncelleme: 11 Ekim 2026</p>
-  <div class="card"><strong>Kısaca:</strong> Draft Season'da hesap yok ve bize ait sunucu yok. Kayıtlı oyunun telefonunda kalır. Oyun reklamları Google AdMob ile gösterir, oyun içi satın almaları Google Play ile satar. Bu iki Google hizmeti aşağıda anlatılan bazı verileri işler. Verini satmayız, kendi analiz veya takip aracımız yoktur.</div>
+  <h1>Gizlilik politikası · Coach Season: Club Manager</h1>
+  <p class="meta">Son güncelleme: 21 Kasım 2026</p>
+  <div class="card"><strong>Kısaca:</strong> Coach Season'da hesap sistemi ve bize ait sunucu yok. Kayıtlı oyunun cihazında kalır; Android'de istersen bir kopyasını Google Play Oyunlar hesabında, iPhone'da Game Center hesabında da tutabilirsin. Oyun aşağıda tek tek anlatılan şu hizmetleri kullanır: reklamlar için Google AdMob (Google'ın onay formuyla), oyunun nasıl oynandığını görmek ve çökmeleri düzeltmek için Google Firebase Analytics ve Firebase Crashlytics, Google Play Oyunlar (Android, isteğe bağlı), Game Center (iPhone, isteğe bağlı) ve satın almalar için kullandığın mağaza (Google Play veya Apple App Store). Verini satmayız.</div>
 
   <h2>1. Sorumlu kim</h2>
-  <p>Draft Season'ı Onur Zencirli geliştirir ve yayımlar. Bu politika Android oyunu ve bu web sayfaları için geçerlidir. İletişim: <a data-email="Gizlilik" href="#">[SUPPORT_EMAIL]</a></p>
+  <p>Coach Season'ı Onur Zencirli geliştirir ve yayımlar. Bu politika Android'deki ve iPhone'daki Coach Season oyunu ile bu web sayfaları için geçerlidir. İletişim: <a data-email="Gizlilik" href="mailto:quafrei112@gmail.com?subject=Gizlilik">quafrei112@gmail.com</a></p>
 
-  <h2>2. Cihazında saklanan veri</h2>
-  <p>Kadron, sezon ilerlemen, paran, ayarların ve satın alma durumun yalnız telefonunda saklanır. Hesap, giriş, bulut kaydı ve bu veriyi alan bir sunucumuz yoktur. Göremeyiz.</p>
+  <h2>2. Kayıtlı oyunun, Google Play Oyunlar ve Game Center</h2>
+  <p>Kadron, sezon ilerlemen, paran, ayarların ve satın alma durumun cihazında saklanır. Bunları alan bir sunucumuz yoktur, göremeyiz.</p>
+  <p><strong>Yalnız Android, isteğe bağlı: Google Play Oyunlar.</strong> Play Oyunlar ile giriş yaparsan oyun, başka telefonda devam edebilmen için kaydının bir kopyasını Play Oyunlar hesabında (Google Kayıtlı Oyunlar) tutar, kupa puanını oyunun sıralama tablosuna gönderir (diğer oyuncular onu Play Oyunlar adın ve resminle görür) ve kendin bir ad seçmediysen Play Oyunlar adını teknik direktör adın olarak kullanır. Google bu isteklerle Play Oyunlar oyuncu kimliğini alır ve bu veriyi Google hesabında saklar; bunun için bizim bir sunucumuz yoktur. Giriş yapmadan da oynayabilirsin.</p>
+  <p><strong>Yalnız iPhone, isteğe bağlı: Game Center.</strong> Game Center'a giriş yaparsan oyun, kaydının bir kopyasını Game Center kayıtlı oyunlarında tutar; böylece başka bir iPhone'da devam edebilirsin. Apple bu kopyayı Apple Hesabında saklar; bunun için bizim sunucumuz yoktur ve kaydını asla almayız. Oyun, kopyayı sana bağlamak için Game Center oyuncu kimliğini ve görünen adını okur. iPhone'da sıralama tablosu yoktur, puanlar Game Center'a gönderilmez. Giriş yapmazsan kaydın yalnız bu cihazda kalır.</p>
 
   <h2>3. Reklamlar (Google AdMob)</h2>
   <p>Ücretsiz oyun Google AdMob reklamları gösterir. AdMob bunun için cihazının reklam kimliğini, IP adresini (yaklaşık konum), cihaz ve işletim sistemi bilgisini, uygulama etkileşimini ve teşhis verisini toplayıp kullanabilir. Bu veri bize değil Google'a gider. Bkz. <a href="https://policies.google.com/privacy">Google gizlilik politikası</a>.</p>
   <ul>
     <li><strong>Ödüllü reklamlar</strong> isteğe bağlıdır; yalnız ödül (enerji, sandık gibi) için bir düğmeye bastığında izlersin.</li>
     <li><strong>Geçiş reklamları</strong> ekranlar veya maçlar arasında çıkabilir.</li>
-    <li><strong>Onay:</strong> Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de oyun önce Google'ın onay formunu (Google User Messaging Platform) gösterir. Seçimini sonra oyun ayarlarından değiştirebilirsin. Yasanın gerektirdiği yerlerde onay yoksa yalnız kişiselleştirilmemiş reklam gösterilir.</li>
-    <li>Reklam kimliğini Android Ayarlar → Google → Reklamlar bölümünden sıfırlayabilir veya silebilirsin.</li>
+    <li><strong>Onay:</strong> Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de oyun önce Google'ın onay formunu (Google User Messaging Platform) gösterir. Seçimini sonra oyunda Ayarlar → Gizlilik seçenekleri'nden değiştirebilirsin. Yasanın gerektirdiği yerlerde onay yoksa yalnız kişiselleştirilmemiş reklam gösterilir.</li>
+    <li><strong>iPhone:</strong> reklamlar başlamadan önce iOS, Coach Season'ın seni izlemesine izin verip vermediğini sorar (Uygulama Takip Şeffaflığı). AdMob cihazının reklam kimliğini (IDFA) yalnız izin verirsen alır; vermezsen reklamlar kişiselleştirilmez. Bunu istediğin zaman iOS Ayarlar → Gizlilik ve Güvenlik → İzleme bölümünden değiştirebilirsin.</li>
+    <li>Android'de reklam kimliğini Ayarlar → Google → Reklamlar bölümünden sıfırlayabilir veya silebilirsin.</li>
   </ul>
 
-  <h2>4. Satın almalar (Google Play Faturalandırma)</h2>
-  <p>Oyun içi satın almaları (para, paketler, geçişler) tamamen Google Play yürütür. Ödemeni ve satın alma kayıtlarını Google işler. Kart veya ödeme bilgini asla görmeyiz. Oyun, satın almanın geçerliliğini cihazda denetlemek ve geri yüklemek için makbuzu cihazında tutar. Bazı paketler rastgele öğeler içerir; bu, satın almadan önce mağazada belirtilir.</p>
+  <h2>4. Satın almalar (Google Play ve Apple App Store)</h2>
+  <p>Oyun içi satın almaları (para, paketler, geçişler) kullandığın mağaza yürütür: Android'de Google Play Faturalandırma, iPhone'da Apple App Store. Oyundaki satın alma kütüphanesi (Unity IAP) satın almayı bu mağazaya iletir. Ödemeni mağaza işler ve kendi satın alma kayıtlarını tutar. Kart veya ödeme bilgini asla görmeyiz. Oyun, satın almanın geçerliliğini denetlemek ve geri yüklemek için makbuzu cihazında tutar. Ürünün adı ve satın almanın tamamlanıp tamamlanmadığı Firebase Analytics'te de sayılır (5. bölüm). Bazı paketler rastgele öğeler içerir; olasılıklar satın almadan önce oyunda gösterilir.</p>
 
-  <h2>5. Analiz ve çökme raporu</h2>
-  <p>Oyunda kendi analiz veya çökme raporu hizmetimiz yoktur. Google Play, Play Console üzerinden bize toplu çökme ve performans istatistikleri verebilir; bunlar seni tanımlamaz.</p>
+  <h2>5. Analiz ve çökme raporu (Google Firebase)</h2>
+  <p>Oyunun nasıl oynandığını anlamak için (örneğin oturumlar, ekranlar, maçlar, mağaza ziyaretleri ve satın almalar) Google Firebase Analytics'i, çökmeleri bulup düzeltmek için Firebase Crashlytics'i kullanıyoruz. Bu hizmetler rastgele bir kurulum kimliği, cihaz ve işletim sistemi bilgisi, uygulama sürümü, IP adresinden çıkarılan kaba konum (IP adresi saklanmaz), oyun içi olaylar ve çökmelerde çökme kaydı alır. Adını, kayıtlı oyununu veya yazdığın bir metni almaz. Android'de reklam kimliğini okumaları engellenmiştir; iPhone'da bu kimlik yalnız izlemeye izin verirsen erişilebilir olur (3. bölüm). Firebase'in reklam depolama ve reklam kişiselleştirme ayarları her zaman kapalıdır; bu veri asla reklam için kullanılmaz. Analiz verisi 2 ay, çökme verisi 90 gün saklanır. Google bu veriyi bizim adımıza hizmet sağlayıcı olarak işler; veriyi satmayız.</p>
+  <p>AEA ve Birleşik Krallık'ta analiz, yalnızca onay mesajında kabul ettikten sonra başlar; seçimini istediğin zaman Ayarlar → Gizlilik seçenekleri'nden değiştirebilirsin. Çökme raporu her zaman açıktır, çünkü oyunun çalışır kalması için gereklidir. Google Play ve Apple da bize toplu çökme ve performans istatistikleri verebilir; bunlar seni tanımlamaz.</p>
 
-  <h2>6. Çocuklar</h2>
-  <p>Draft Season 13 yaş altı çocuklara yönelik değildir ve onlardan bilerek veri toplamayız. Bir çocuğun oyunu kullandığını düşünüyorsan bize yaz.</p>
+  <h2>6. Hata bildirimleri</h2>
+  <p>Ayarlar → Hata bildir / Öneri gönder'e basarsan oyun tarayıcında bir Google Form açar. Form oyun sürümün, cihaz modelin, işletim sistemin, dilin, o anki ekran ve son oyununun kısa bir özetiyle (ad yok, hesap yok) doldurulmuş gelir. Formu göndermezsen hiçbir şey gitmez. Cevapların bizim için Google Formlar'da saklanır ve yalnız sorunları düzeltmek için kullanılır.</p>
 
-  <h2>7. Verini silme</h2>
-  <p>Sunucularımızda veri durmadığı için silme senin elindedir: Android Ayarlar → Uygulamalar → Draft Season → Depolama bölümünden Verileri temizle'yi seç veya oyunu kaldır. Google'da tutulan veriyi (reklam, Play satın almaları) <a href="https://myaccount.google.com/">myaccount.google.com</a> üzerinden yönetirsin.</p>
+  <h2>7. Çocuklar</h2>
+  <p>Coach Season 13 yaş altı çocuklara yönelik değildir ve onlardan bilerek veri toplamayız. Bir çocuğun oyunu kullandığını düşünüyorsan bize yaz.</p>
 
-  <h2>8. Haklarınız</h2>
-  <p>Yaşadığın yere göre (örneğin KVKK, GDPR) kişisel verilere erişme, düzeltme ve silme haklarınız olabilir. Hakkında veri tutmuyoruz, ama yukarıdaki adrese yazabilirsin; cevaplarız.</p>
+  <h2>8. Verini silme</h2>
+  <p>Kayıtlı oyunun yalnızca cihazındadır (2. bölümdeki Play Oyunlar veya Game Center kopyası hariç): Android'de Ayarlar → Uygulamalar → Coach Season → Depolama → Verileri temizle'yi seç veya oyunu kaldır; iPhone'da uygulamayı sil. Game Center'a kaydettiğin kopya Apple'da kalır; onu Apple Hesabından veya Game Center ayarlarından silene kadar durur. Bu, rastgele kurulum kimliğini de sıfırlar; yeni analiz ve çökme verisi eski veriye bağlanmaz, eski veri 2 ay (analiz) veya 90 gün (çökme) sonra silinir. Analiz ve çökme verisinin daha önce silinmesini istersen yukarıdaki adrese yaz; 30 gün içinde sileriz.</p>
+  <p>Play Oyunlar kayıtlı oyunun, sıralama puanın ve profilin Google'da tutulur: bunları Google Play Oyunlar uygulamasının ayarlarından veya <a href="https://myaccount.google.com/">myaccount.google.com</a> üzerinden silebilirsin; reklam ve Google Play verilerini de orada yönetirsin. Apple satın alma kayıtların Apple Hesabı'nda yönetilir.</p>
 
-  <h2>9. Değişiklikler</h2>
-  <p>Oyun yeni veri toplamaya başlarsa (hesap, bulut kaydı gibi), yayımdan önce bu sayfayı ve tarihi güncelleriz.</p>
+  <h2>9. Hakların</h2>
+  <p>Yaşadığın yere göre (örneğin KVKK, GDPR) kişisel verilere erişme, düzeltme, silme ve işlenmesine itiraz etme hakların olabilir. Bizim doğrudan aldığımız veri yalnız yukarıda anlatılan takma adlı analiz ve çökme verisi ile gönderdiğin hata bildirimleridir; yukarıdaki adrese yaz, cevaplarız.</p>
+
+  <h2>10. Değişiklikler</h2>
+  <p>Oyun yeni veri toplamaya başlarsa, o sürüm yayımlanmadan önce bu sayfayı ve tarihi güncelleriz.</p>
 </article>
 </main>
 <footer class="bottom">
-  <a href="../">Draft Season</a>
+  <a href="../">Coach Season</a>
   <a href="../privacy/">Privacy / Gizlilik</a>
   <a href="../terms/">Terms / Koşullar</a>
+  <a href="../support/">Support / Destek</a>
   <a href="../odds/">Odds / 확률</a>
 </footer>
 </div>

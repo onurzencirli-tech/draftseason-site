@@ -1,4 +1,4 @@
-/* Draft Season store pages: language switch (en, tr) and support e-mail from config.json.
+/* Coach Season store pages: language switch (en, tr) and support e-mail from config.json.
  * No cookies, no local storage, no external requests. */
 (function () {
   var LANGS = ['en', 'tr'];
